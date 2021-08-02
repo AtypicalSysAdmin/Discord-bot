@@ -1,9 +1,5 @@
 # Discord-bot
-This discord bot is a group 
-game
 
-```
-const CommitmentDate= now.date() <br /> 
-*2021/05/08* 
+Simple Discord bot to send messages, read/write data from the database, and act on defined commands
 
-```
+this is for educational purpose to see the code and get the idea, you cannot just clone the repository to run the bot. the bot tokens are in the .env file which is not uploaded here. also pay attention to the path of your files and make amendments to the accordingly.
