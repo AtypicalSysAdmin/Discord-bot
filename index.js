@@ -4,12 +4,12 @@ const keepAlive = require("./server")
 
 const Discord = require("discord.js")
 
-//const Database = require("@replit/database")
 
-//const db = new Database()
+
+
 const client = new Discord.Client()
 
-//const fetch = require("node-fetch")
+
 
 
 
@@ -22,7 +22,7 @@ client.on("ready", () => {
 
 
 
-//let numberofnights=0;
+
 var players = {}
 
 
@@ -49,6 +49,6 @@ client.on("message", msg => {
 
 
 keepAlive()
-client.login(process.env['TOKEN'])
+client.login(process.env['TOKEN']) //gotta get this from discord and add your bot in your dev acc
 
 
